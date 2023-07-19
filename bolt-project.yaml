@@ -1,0 +1,11 @@
+---
+name: check24
+modules:
+- puppet/nginx
+- puppet/php
+- puppetlabs/puppet_agent
+- puppetlabs/sshkeys_core
+- saz/sudo
+- saz/ssh
+modulepath:
+- site

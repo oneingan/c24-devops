@@ -1,0 +1,11 @@
+targets:
+  - uri: '192.168.56.31'
+    name: box1
+    config:
+      transport: ssh
+config:
+  ssh:
+    host-key-check: false
+    user: vagrant
+    private-key: "~/.vagrant.d/insecure_private_key"
+    run-as: root
